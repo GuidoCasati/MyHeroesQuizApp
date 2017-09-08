@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="HorizontalMargin">16dp</dimen>
+    <dimen name="VerticalMargin">12dp</dimen>
+    <dimen name="shortMargin">5dp</dimen>
+    <dimen name="largeMargin">24dp</dimen>
+    <dimen name="xlMargin">48dp</dimen>
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="smallTextSize">11sp</dimen>
+    <dimen name="hugTextSize">32sp</dimen>
+</resources>

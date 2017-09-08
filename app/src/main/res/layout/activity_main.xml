@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myheroesquizzapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q1" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xlMargin"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                style="@style/CheckBoxes"
+                android:text="@string/A11" />
+
+            <RadioButton
+                android:id="@+id/A1_okay"
+                style="@style/CheckBoxes"
+                android:text="@string/A13" />
+
+            <RadioButton
+                style="@style/CheckBoxes"
+                android:text="@string/A14" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q2" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xlMargin"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                style="@style/CheckBoxes"
+                android:text="@string/A21" />
+
+            <RadioButton
+                android:id="@+id/A2_Okay"
+                style="@style/CheckBoxes"
+                android:text="@string/A22" />
+
+            <RadioButton
+                style="@style/CheckBoxes"
+                android:text="@string/A23" />
+
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q3" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xlMargin"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/A31_okay"
+                style="@style/CheckBoxes"
+                android:text="@string/A31" />
+
+            <CheckBox
+                android:id="@+id/A32"
+                style="@style/CheckBoxes"
+                android:text="@string/A32" />
+
+            <CheckBox
+                android:id="@+id/A33_Okay"
+                style="@style/CheckBoxes"
+                android:text="@string/A33" />
+
+            <CheckBox
+                android:id="@+id/A34"
+                style="@style/CheckBoxes"
+                android:text="@string/A34" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q4" />
+
+        <EditText
+            android:id="@+id/A4"
+            style="@style/TextAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/Q"
+            android:text="@string/Q5" />
+
+        <EditText
+            android:id="@+id/A5"
+            style="@style/TextAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/VerticalMargin"
+            android:onClick="Score"
+            android:text="@string/Submit" />
+    </LinearLayout>
+
+</ScrollView>

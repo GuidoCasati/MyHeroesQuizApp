@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">My Heroes Quiz App</string>
+    <string name="Q1">What\'s the real name of Spider Man?</string>
+    <string name="A11">Peter\nPranker</string>
+    <string name="A12">Peter\nDarker</string>
+    <string name="A13">Peter\nParker</string>
+    <string name="A14">Pedro\nAparcador</string>
+    <string name="Q2">How is Wolverine\'s skeleton made?</string>
+    <string name="A21">Andale\nAndale</string>
+    <string name="A22">Adamantium</string>
+    <string name="A23">Adam\nLevine </string>
+    <string name="A24">Adam\'s\nMom</string>
+    <string name="Q3">Which one of the following has no super powers?</string>
+    <string name="A31">Batman</string>
+    <string name="A32">The Thing</string>
+    <string name="A33">Iron Man</string>
+    <string name="A34">Hulk</string>
+    <string name="Q4">Who\'s the boss of X-Men ?</string>
+    <string name="Q5">Who\'s the lover of Spider Man?</string>
+    <string name="Hint">Insert the correct answer</string>
+    <string name="Submit">Submit</string>
+    <string name="ToastPt1">Bravo! You scored\n</string>
+    <string name="ToastPt2">points out of 16!</string>
+
+    <string-array name="Answers">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+    </string-array>
+
+</resources>
